@@ -3,7 +3,6 @@ import MailIcon from "../assets/Icons/MailIcon";
 import PhoneIcon from "../assets/Icons/PhoneIcon";
 import RedirectIcon from "../assets/Icons/RedirectIcon";
 import RightArrow from "../assets/Icons/RightArrow";
-import { CopyBlock } from "react-code-blocks";
 import SubmitCodeSnippet from "../Components/SubmitCodeSnippet";
 
 const Contact = () => {
