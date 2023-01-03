@@ -215,7 +215,7 @@ const AboutMe = () => {
           <div className="flex">
             <div>
               <img
-                src="/public/assets/user image 2.png"
+                src={`${import("/public/assets/user image 2.png")}`}
                 className="rounded-[50%] h-[36px] w-[36px]"
                 alt=""
               />
