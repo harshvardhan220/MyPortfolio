@@ -11,6 +11,9 @@ import ExperienceTextComponent from "../Components/Experience/ExperienceTextComp
 import EducationTextComponent from "../Components/Education/EducationTextComponent";
 import LogiDescription from "../Components/Experience/LogiDescription";
 import FnCallbackDescription from "../Components/Experience/FnCallbackDescription";
+import UserImage from "/public/assets/user image 2.png";
+import Validation from "/public/assets/validation.jpg";
+import FlatMap from "/public/assets/flatmap.jpg";
 
 const AboutMe = () => {
   const [personalInfo, setPersonalInfo] = useState(true);
@@ -215,7 +218,7 @@ const AboutMe = () => {
           <div className="flex">
             <div>
               <img
-                src={`${import("/public/assets/user image 2.png")}`}
+                src={UserImage}
                 className="rounded-[50%] h-[36px] w-[36px]"
                 alt=""
               />
@@ -232,7 +235,7 @@ const AboutMe = () => {
           <div className="border rounded-lg border-[#1E2D3D] bg-[#011221] h-auto mt-[12px]">
             <div className="p-[13px]">
               <img
-                src="/public/assets/validation.jpg"
+                src={Validation}
                 alt=""
                 className="rounded-lg object-contain"
               />
@@ -243,7 +246,7 @@ const AboutMe = () => {
           <div className="flex">
             <div>
               <img
-                src="/public/assets/user image 2.png"
+                src={UserImage}
                 className="rounded-[50%] h-[36px] w-[36px]"
                 alt=""
               />
@@ -259,11 +262,7 @@ const AboutMe = () => {
           </div>
           <div className="border rounded-lg border-[#1E2D3D] bg-[#011221] h-auto mt-[12px]">
             <div className="p-[13px]">
-              <img
-                src="/public/assets/flatmap.jpg"
-                alt=""
-                className="rounded-lg object-contain"
-              />
+              <img src={FlatMap} alt="" className="rounded-lg object-contain" />
             </div>
           </div>
         </div>
