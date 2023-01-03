@@ -3,11 +3,10 @@ import FacebookIcon from "../assets/Icons/FacebookIcon";
 import TwitterIcon from "../assets/Icons/TwitterIcon";
 
 const Footer = () => {
-  let textStyle = "text-[7px] text-[#607B96] active:border-b-[#FEA55F]";
-
+  let textStyle = "text-[16px] text-[#607B96] active:border-b-[#FEA55F]";
   return (
-    <div className=" h-[2vh] text-[3px]">
-      <ul className="flex ">
+    <div className=" h-[4vh] text-[16px]">
+      <ul className="flex justify-center">
         <li
           className={`${textStyle}  border-[0.5px] border-[#1E2D3D] w-[24%] px-2 py-1 cursor-pointer`}
         >
@@ -17,15 +16,15 @@ const Footer = () => {
           <li
             className={`${textStyle} border-[0.5px] border-l-0 border-r-0 border-t-[#1E2D3D] border-b-[#1E2D3D] px-2 py-1 cursor-pointer`}
           >
-            {/* <TwitterIcon height="12px" style={{marginTop:"2px"}}/> */}
+            <TwitterIcon height="12px" style={{marginTop:"5px"}}/>
           </li>
           <li
             className={`${textStyle} border-[0.5px] border-l-[#1E2D3D] border-r-[#1E2D3D] border-t-[#1E2D3D] border-b-[#1E2D3D] px-2 py-1 cursor-pointer`}
           >
-            {/* <FacebookIcon  height="16px" /> */}
+            <FacebookIcon  height="16px" style={{marginTop:"4px"}} />
           </li>
           <li
-            className={`${textStyle} border-[0.5px]  border-l-0 border-r-[#1E2D3D] border-t-[#1E2D3D] border-b-[#1E2D3D]  px-2 py-1 w-[100%]`}
+            className={`${textStyle} border-[0.5px] border-l-0 border-r-[#1E2D3D] border-t-[#1E2D3D] border-b-[#1E2D3D]  px-2 py-1 w-[100%]`}
           ></li>
         </div>
         <li

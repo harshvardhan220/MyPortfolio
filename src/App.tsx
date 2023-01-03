@@ -4,8 +4,9 @@ import reactLogo from "./assets/react.svg";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import HeroSection from "./Components/HeroSection";
-import SnakeGame from "./Components/SnakeGame/SnakeGame";
 import AboutMe from "./Pages/AboutMe";
+import Contact from "./Pages/Contact";
+import Projects from "./Pages/Projects";
 
 function App() {
   return (
@@ -17,11 +18,11 @@ function App() {
           <Route path="/about" element={<AboutMe />} />
           <Route
             path="/projects"
-            element={<div className="h-[85vh]">Projects</div>}
+            element={<Projects />}
           />
           <Route
             path="/contact"
-            element={<div className="h-[85vh]">Contact</div>}
+            element={<Contact/>}
           />
         </Routes>
         <Footer />
